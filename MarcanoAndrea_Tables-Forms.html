@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Tables and Forms</title>
+	</head>
+	
+	<body>
+		<h1>Pizza Ordering Form</h1>
+		<h2>Contact Information</h2>
+		
+		<form>
+			<label for="inName">Name:</label>
+			<input required type="text" name="inName" id="inName"><br>
+			
+			<label for="inPhone">Phone:</label>
+			<input required type="phone" name="inPhone" id="inPhone"><br>
+			
+			<label for="inEmail">Email:</label>
+			<input required type="email" name="inEmail" id="inEmail"><br>
+			
+			<h2>Select Pizza Size</h2>
+			<label for="size">Pizza Size:</label>
+			<select required name="size" id="size">
+				<option value="">--Select Size--</option>
+				<option>Medium</option>
+				<option>Large</option>
+				<option>XLarge</option>
+			</select>
+			
+			<h2>Select Sauce</h2>
+			<input required type="radio" name="sauce"><label>Marinara</label><br>
+			<input required type="radio" name="sauce"><label>Ranch</label><br>
+			<input required type="radio" name="sauce"><label>No Sauce</label>
+			
+			<h2> Select Toppings</h2>
+			<input type="checkbox" name="topping"><label>Pepperoni</label>
+			<input  type="checkbox" name="topping"><label>Sausage</label><br>
+			<input type="checkbox" name="topping"><label>Mushroom</label>
+			<input type="checkbox" name="topping"><label>Pineapple</label><br>
+			<input type="checkbox" name="topping"><label>Peppers</label>
+			<input type="checkbox" name="topping"><label>Onions</label>
+			
+			<h2>Additional Instructions</h2>
+			<textarea name="instructions">Add instructions</textarea><br>
+			
+			<input type="submit" value="Submit"><br>
+		</form>
+		
+		<p>
+		
+		<table border="2">
+			<thead>List of My Favorite Games</thead>
+			<tbody>
+				<tr>
+					<th>Developer</strong></th>
+					<th><strong>Title</strong></th></th>
+					<th><strong>Year</strong></th></th>
+				</tr>
+				<tr> 
+					<td rowspan="4">Bungie</td>
+						<tr>
+							<td>Halo
+							<td>2001
+						</tr>
+						<tr>
+							<td>Halo 2
+							<td>2004
+						</tr>
+						<tr>
+							<td> Halo 3
+							<td>2007
+						</tr>
+				</tr>
+				<tr>
+					<td rowspan="2"> Mojang</td>
+						<tr>
+							<td>Minecraft
+							<td>2011
+						</tr>
+				</tr>
+				<tr>
+				<td colspan="3">Count: 4</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
