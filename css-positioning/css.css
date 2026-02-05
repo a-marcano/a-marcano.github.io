@@ -1,0 +1,105 @@
+#jumpMenu{
+	position: fixed;
+	background-color: #c28515;
+	width: 15%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#jumpMenu a{
+	font-size: 22px;
+	display: block;
+	text-align: center;
+	height: 6%;
+	
+}
+
+#jumpMenu h2{
+	font-size: 30px;
+	text-align: center;
+}
+
+header{
+	position: fixed;
+	background-color: red;
+	width: 85%;
+	height: 10%;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	top: 0px;
+	left: 15%;
+	z-index: 5;
+}
+
+header nav{
+	position: fixed;
+	background-color: black;
+	top: 10%;
+	width: 85%;	
+	z-index: 5;
+}
+
+button{
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 15px;
+	width: 20%;
+	border: 0px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	z-index: 6;
+	
+}
+
+main{
+	margin-left: 15%;
+}
+h1{
+	position: relative;
+	top: 130px;
+	text-align: center;
+	font-size: 40px;
+	z-index: 1;
+	margin-bottom: 40px;
+}
+
+#container{
+	position: relative;
+	top: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+article{
+	width: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 12px;
+	flex-direction: column;
+}
+
+#thanks{
+	z-index: 2;
+	background-color: #7abceb;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 25px;
+	padding: 15px;
+	border: 1px solid black;
+}
+
+footer{
+	position: relative;
+	margin-top: 100px;
+}
