@@ -1,0 +1,118 @@
+#menuItems{
+	position: fixed;
+	height: 100%;
+	background-color: black;
+	width: 15%;
+	top: 0px;
+	left: 0px;
+}
+
+#menuItems button{
+	background-color: blue;
+	border: 1px solid gray;
+	padding: 10px;
+	width: 100%;
+	color: white;
+	font-size: 16px;
+	margin-bottom: 1px;
+	position: relative;
+	overflow: auto;
+	display: block;
+}
+
+#menuItems button:hover{
+	background-color: #c28515;
+}
+
+#jumpMenu{
+	display: none;
+	position: absolute;
+	background-color: #c28515;
+	min-width: 100%;
+	z-index: 4;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+#jumpMenu a{
+	display: block;
+	text-align: center;
+}
+
+#menuItems:hover #jumpMenu{
+	display: block;
+}
+
+#menuItems #jumpMenu a:hover{
+	background-color: blue;
+}
+
+main{
+	margin-left: 15%;
+}
+
+header{
+	position: fixed;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	background-color: red;
+	top: 0px;
+	height: 10%;
+	width: 85%;
+	left: 15%;
+	z-index: 5;
+}
+
+h1{
+	margin-top: 10%;
+	text-align: center;
+}
+
+#container{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: justify;
+	margin-left: 5%;
+	color: gray;
+	z-index: 1;
+}
+
+article{
+	width: 200px;
+	margin: 2%;
+	flex-direction: column;
+	font-size: 12px;
+	font-family: sans-serif;
+	transition: 2s;
+}
+
+article p:first-of-type::first-letter {
+	font-size: 36px;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+article:hover{
+	font-size: 102%;
+	color: black;
+	transition: 2s;
+}
+
+div a::after{
+	content: url(https://upload.wikimedia.org/wikipedia/commons/9/96/Link-external-small-ltr-progressive.svg);
+}
+
+#thanks{
+	z-index: 2;
+	background-color: #7abceb;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 25px;
+	padding: 15px;
+	border: 1px solid black;
+}
