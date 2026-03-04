@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="async.css">
+        <script src="async.js"></script>
+        <title>Pokemon Team Builder</title>
+    </head>
+
+    <body>
+        <h1>Pokemon Team Builder</h1>
+
+        <div id="search">
+            <label for="nameId">Name or ID</label><br>
+            <input type="text" id="nameId">
+            <input type="submit" value="Find" onclick="searchPokemon()">
+        </div>
+
+        <div id="info">
+            <select name="move1" id="move1"></select>
+            <select name="move2" id="move2"></select><br>
+            <select name="move3" id="move3"></select>
+            <select name="move4" id="move4"></select><br>
+            <input type="submit" value="Add to Team">
+        </div>
+
+    </body>
+</html>
