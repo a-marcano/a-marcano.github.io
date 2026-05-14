@@ -1,0 +1,211 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20260514T185802Z
+DESCRIPTION:You are invited to a Zoom webinar!\nWhen: May 21\, 2026 11:00 A
+	M Eastern Time (US and Canada)\nTopic:  Global Accessibility Awareness Day
+	 (GAAD) Webinar: Accessibility at UCF\n\nJoin from PC\, Mac\, iPad\, or An
+	droid:\nhttps://ucf.zoom.us/j/93092328178\n\nPhone one-tap:\n+13052241968\
+	,\,93092328178# US\n+13126266799\,\,93092328178# US (Chicago)\n\nJoin via 
+	audio:\n+1 305 224 1968 US\n+1 312 626 6799 US (Chicago)\n+1 646 931 3860 
+	US\n+1 929 205 6099 US (New York)\n+1 301 715 8592 US (Washington DC)\n+1 
+	309 205 3325 US\n+1 669 900 6833 US (San Jose)\n+1 689 278 1000 US\n+1 719
+	 359 4580 US\n+1 253 205 0468 US\n+1 253 215 8782 US (Tacoma)\n+1 346 248 
+	7799 US (Houston)\n+1 360 209 5623 US\n+1 386 347 5053 US\n+1 507 473 4847
+	 US\n+1 564 217 2000 US\n+1 669 444 9171 US\nWebinar ID: 930 9232 8178\nIn
+	ternational numbers available: https://ucf.zoom.us/u/aeezhubRbB\n\n\nJoin 
+	from an H.323/SIP room system:\nH.323:\n144.195.19.161 (US West)\n206.247.
+	11.121 (US East)\n137.66.136.22 (India Mumbai)\n137.66.140.8 (India Hydera
+	bad)\n159.124.15.191 (Amsterdam Netherlands)\n159.124.47.249 (Germany)\n15
+	9.124.104.213 (Australia Sydney)\n159.124.74.212 (Australia Melbourne)\n17
+	0.114.180.219 (Singapore)\n64.211.144.160 (Brazil)\n159.124.132.243 (Mexic
+	o)\n159.124.168.213 (Canada Toronto)\n159.124.196.25 (Canada Vancouver)\n1
+	70.114.194.163 (Japan Tokyo)\n147.124.100.25 (Japan Osaka)\nMeeting ID: 93
+	0 9232 8178\nSIP: 93092328178@zoomcrc.com\n
+DTEND;TZID="Eastern Standard Time":20260521T133000
+DTSTAMP:20260514T185802Z
+DTSTART;TZID="Eastern Standard Time":20260521T110000
+LAST-MODIFIED:20260514T185802Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Global Accessibility Awareness Day @ UCF Webinar
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000040AD0958D1E3DC01000000000000000
+	010000000AE7C269CFB2D1946A0BBD8E0FFE113B5
+X-ALT-DESC;FMTTYPE=text/html:<div style="font-family: Aptos\, Aptos_Embedde
+	dFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size
+	: 12pt\; color: rgb(0\, 0\, 0)\;">You are invited to a Zoom webinar!</div>
+	<div class="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont
+	\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12p
+	t\; color: rgb(0\, 0\, 0)\;">When: May 21\, 2026 11:00 AM Eastern Time (US
+	 and Canada)</div><div class="elementToProof" style="font-family: Aptos\, 
+	Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-seri
+	f\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">Topic: &nbsp\;Global Access
+	ibility Awareness Day (GAAD) Webinar: Accessibility at UCF</div><div class
+	="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_M
+	SFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color:
+	 rgb(0\, 0\, 0)\;"><br></div><div class="elementToProof" style="font-famil
+	y: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\
+	, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">Join from PC\, M
+	ac\, iPad\, or Android:</div><div class="elementToProof" style="font-famil
+	y: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\
+	, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;"><a href="https:/
+	/ucf.zoom.us/j/93092328178" title="https://ucf.zoom.us/j/93092328178">http
+	s://ucf.zoom.us/j/93092328178</a></div><div class="elementToProof" style="
+	font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, 
+	Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;"><br></
+	div><div class="elementToProof" style="font-family: Aptos\, Aptos_Embedded
+	Font\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size:
+	 12pt\; color: rgb(0\, 0\, 0)\;">Phone one-tap:</div><div class="elementTo
+	Proof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontServic
+	e\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\
+	, 0)\;">+13052241968\,\,93092328178# US</div><div class="elementToProof" s
+	tyle="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Cali
+	bri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">
+	+13126266799\,\,93092328178# US (Chicago)</div><div class="elementToProof"
+	 style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Ca
+	libri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;
+	"><br></div><div class="elementToProof" style="font-family: Aptos\, Aptos_
+	EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; fo
+	nt-size: 12pt\; color: rgb(0\, 0\, 0)\;">Join via audio:</div><div class="
+	elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSF
+	ontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: r
+	gb(0\, 0\, 0)\;">+1 305 224 1968 US</div><div class="elementToProof" style
+	="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\
+	, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 3
+	12 626 6799 US (Chicago)</div><div class="elementToProof" style="font-fami
+	ly: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica
+	\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 646 931 3860
+	 US</div><div class="elementToProof" style="font-family: Aptos\, Aptos_Emb
+	eddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-
+	size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 929 205 6099 US (New York)</div><
+	div class="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\
+	, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt
+	\; color: rgb(0\, 0\, 0)\;">+1 301 715 8592 US (Washington DC)</div><div c
+	lass="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Apt
+	os_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; co
+	lor: rgb(0\, 0\, 0)\;">+1 309 205 3325 US</div><div class="elementToProof"
+	 style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Ca
+	libri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;
+	">+1 669 900 6833 US (San Jose)</div><div class="elementToProof" style="fo
+	nt-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, He
+	lvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 689 2
+	78 1000 US</div><div class="elementToProof" style="font-family: Aptos\, Ap
+	tos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\
+	; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 719 359 4580 US</div><div 
+	class="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Ap
+	tos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; c
+	olor: rgb(0\, 0\, 0)\;">+1 253 205 0468 US</div><div class="elementToProof
+	" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, C
+	alibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\
+	;">+1 253 215 8782 US (Tacoma)</div><div class="elementToProof" style="fon
+	t-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Hel
+	vetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 346 24
+	8 7799 US (Houston)</div><div class="elementToProof" style="font-family: A
+	ptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sa
+	ns-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 360 209 5623 US</
+	div><div class="elementToProof" style="font-family: Aptos\, Aptos_Embedded
+	Font\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size:
+	 12pt\; color: rgb(0\, 0\, 0)\;">+1 386 347 5053 US</div><div class="eleme
+	ntToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontSe
+	rvice\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\
+	, 0\, 0)\;">+1 507 473 4847 US</div><div class="elementToProof" style="fon
+	t-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Hel
+	vetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 564 21
+	7 2000 US</div><div class="elementToProof" style="font-family: Aptos\, Apt
+	os_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\;
+	 font-size: 12pt\; color: rgb(0\, 0\, 0)\;">+1 669 444 9171 US</div><div c
+	lass="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Apt
+	os_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; co
+	lor: rgb(0\, 0\, 0)\;">Webinar ID: 930 9232 8178</div><div class="elementT
+	oProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontServi
+	ce\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0
+	\, 0)\;">International numbers available: https://ucf.zoom.us/u/aeezhubRbB
+	</div><div class="elementToProof" style="font-family: Aptos\, Aptos_Embedd
+	edFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-siz
+	e: 12pt\; color: rgb(0\, 0\, 0)\;"><br></div><div class="elementToProof" s
+	tyle="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Cali
+	bri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">
+	<br></div><div class="elementToProof" style="font-family: Aptos\, Aptos_Em
+	beddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font
+	-size: 12pt\; color: rgb(0\, 0\, 0)\;">Join from an H.323/SIP room system:
+	</div><div class="elementToProof" style="font-family: Aptos\, Aptos_Embedd
+	edFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-siz
+	e: 12pt\; color: rgb(0\, 0\, 0)\;">H.323:</div><div class="elementToProof"
+	 style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Ca
+	libri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;
+	">144.195.19.161 (US West)</div><div class="elementToProof" style="font-fa
+	mily: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helveti
+	ca\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">206.247.11.12
+	1 (US East)</div><div class="elementToProof" style="font-family: Aptos\, A
+	ptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif
+	\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">137.66.136.22 (India Mumbai)
+	</div><div class="elementToProof" style="font-family: Aptos\, Aptos_Embedd
+	edFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-siz
+	e: 12pt\; color: rgb(0\, 0\, 0)\;">137.66.140.8 (India Hyderabad)</div><di
+	v class="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, 
+	Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\;
+	 color: rgb(0\, 0\, 0)\;">159.124.15.191 (Amsterdam Netherlands)</div><div
+	 class="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, A
+	ptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; 
+	color: rgb(0\, 0\, 0)\;">159.124.47.249 (Germany)</div><div class="element
+	ToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontServ
+	ice\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 
+	0\, 0)\;">159.124.104.213 (Australia Sydney)</div><div class="elementToPro
+	of" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\,
+	 Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0
+	)\;">159.124.74.212 (Australia Melbourne)</div><div class="elementToProof"
+	 style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Ca
+	libri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;
+	">170.114.180.219 (Singapore)</div><div class="elementToProof" style="font
+	-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helv
+	etica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">64.211.144
+	.160 (Brazil)</div><div class="elementToProof" style="font-family: Aptos\,
+	 Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-ser
+	if\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">159.124.132.243 (Mexico)</
+	div><div class="elementToProof" style="font-family: Aptos\, Aptos_Embedded
+	Font\, Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size:
+	 12pt\; color: rgb(0\, 0\, 0)\;">159.124.168.213 (Canada Toronto)</div><di
+	v class="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, 
+	Aptos_MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\;
+	 color: rgb(0\, 0\, 0)\;">159.124.196.25 (Canada Vancouver)</div><div clas
+	s="elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_
+	MSFontService\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color
+	: rgb(0\, 0\, 0)\;">170.114.194.163 (Japan Tokyo)</div><div class="element
+	ToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontServ
+	ice\, Calibri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 
+	0\, 0)\;">147.124.100.25 (Japan Osaka)</div><div class="elementToProof" st
+	yle="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calib
+	ri\, Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">M
+	eeting ID: 930 9232 8178</div><div class="elementToProof" style="font-fami
+	ly: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, Helvetica
+	\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">SIP: 9309232817
+	8@zoomcrc.com</div>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
