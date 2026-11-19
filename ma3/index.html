@@ -1,119 +1,50 @@
-* {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
 
-body {
-    margin: 0;
-}
+<html lang="en">
+    <head>
+        <title>Portfolio Home - Andrea Marcano</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="e-portfolio.css">
 
-.skip-link {
-    position: absolute;
-    top: 0.5rem;
-    left: 0.5rem;
-    z-index: 10;
-    padding: 0.75rem;
-    transform: translateY(-200%);
-    background-color: white;
-    color: black;
-}
+    </head>
 
-.skip-link:focus {
-    transform: translateY(0);
-}
+    <body>
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+        <header>
+            <h1>Andrea Marcano</h1>
 
-:focus-visible {
-    outline: 3px solid #ffbf47;
-    outline-offset: 3px;
-}
+            <nav aria-label="Primary">
+                <a href="ma1.html">Network Map</a>
+                <a href="ma2.html">Case Study</a>
+                <a href="#reflection">Reflection</a>
+            </nav>
+        </header>
 
-header {
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.75rem 1.5rem;
-    width: 100%;
-    padding: 0.75rem 1.5rem;
-    background-color: black;
-    z-index: 5;
-}
+        <main id="main-content" tabindex="-1">
+            <section id="project-list" aria-labelledby="projects-heading">
+                <h2 id="projects-heading">Projects</h2>
 
-h1 {
-    margin: 0;
-    color: white;
-    font-size: clamp(1.25rem, 3vw, 2rem);
-}
+                <section id="ma1" class="projects" aria-labelledby="ma1-heading">
+                    <h3 id="ma1-heading">Network Map</h3>
+                    <p>Info on MA1 here</p>
+                    <a href="ma1.html">View the Network Map</a>
+                </section>
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem 0.75rem;
-}
+                <section id="ma2" class="projects" aria-labelledby="ma2-heading">
+                    <h3 id="ma2-heading">Case Study on Writing</h3>
+                    <p>Info on MA2 here</p>
+                    <a href="ma2.html">Read the Case Study</a>
+                </section>
 
-nav a {
-    display: inline-block;
-    padding: 0.5rem;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-}
+                <section id="reflection" class="projects" aria-labelledby="reflection-heading">
+                    <h3 id="reflection-heading">Reflection</h3>
+                    <p>Info on reflection here</p>
+                    <a href="reflection.html">Read the Reflection</a>
+                </section>
+                
+            </section>
+        </main>
+    </body>
 
-nav a:hover,
-nav a:focus-visible {
-    text-decoration: underline;
-}
-
-main {
-    padding: 1.5rem 0;
-}
-
-#project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 280px));
-    justify-content: center;
-    gap: 1rem;
-    width: 100%;
-    padding: 0 1.5rem;
-}
-
-#main-content,
-#reflection {
-    scroll-margin-top: 6rem;
-}
-
-#project-list > h2 {
-    grid-column: 1 / -1;
-    text-align: center;
-}
-
-.projects {
-    display: block;
-    text-align: center;
-    border: 2px solid black;
-}
-
-@media (max-width: 600px) {
-    header {
-        align-items: flex-start;
-        flex-direction: column;
-        padding: 0.75rem 1rem;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    nav a {
-        padding: 0.5rem 0.25rem;
-    }
-
-    main {
-        padding: 1rem 0;
-    }
-
-    #project-list {
-        padding: 0 1rem;
-    }
-}
+</html>
